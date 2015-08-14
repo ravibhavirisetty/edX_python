@@ -1,0 +1,15 @@
+NoneEnter value of 'n': move from f to s
+move from f to t
+move from f to t
+move from f to s
+move from f to f
+move from f to s
+move from f to s
+move from f to t
+move from f to t
+move from f to f
+move from f to f
+move from f to t
+move from f to s
+move from f to t
+move from f to t

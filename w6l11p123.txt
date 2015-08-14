@@ -1,0 +1,31 @@
+
+Week 06 answers:
+
+L11, Problem 1 -
+1. __init__
+2. obj.doSomething()
+3. False
+4a. self.number = number
+4b. self.streetName = streetName
+
+
+L11, Problem 2 - 
+1. 5:30
+2. 10:30
+3. 10:30
+4. No
+
+
+L11, Problem 3 -
+1. NoneType; error
+2. NoneType; error
+3. int; 7
+4. int; 8
+5. int; 17
+6. int; 18
+7. int; 7
+8. int; 18
+9. int; 31
+10. int; 7
+11. int; 44
+12. int; 8

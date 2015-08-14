@@ -1,0 +1,89 @@
+
+Week 06 answers:
+
+L12, Problem 1 -
+1. Spell
+2. Accio; Confundo
+3a. Accio
+3b. Summoning Charm Accio
+3c. No description
+3d. Confundus Charm Confundo
+3e.	Causes the victim to become confused and befuddled.
+4. The getDescription method defined within the Confundo class
+
+
+L12, Problem 2 - 
+1. 2
+2. 3
+3. 5
+4. 6
+5. A.x
+6. C.Y
+7. D.z
+
+
+L12, Problem 3 -
+def update(self, word):
+	a = []
+    for i in word:
+        if i in self.hand.keys():
+            a.append(True)
+        else:
+            a.append(False)
+    if sum(a) == len(a):
+        for i in word:
+            if i in self.hand.keys():
+                if self.hand[i] != 0:
+                    self.hand[i] -= 1
+        return True
+    else:
+        return False
+
+
+L12, Problem 4 -
+1. Yes, depending on what happened during the update call 
+2. No
+
+L12, Problem 5 -
+def genPrimes():
+    n = 2
+    primes = set()
+    while True:
+        for p in primes:
+            if n % p == 0:
+                break
+        else:
+            primes.add(n)
+            yield n
+        n += 1
+
+L12, Problem 6 -
+1. Everything that can be done with generator can be done with a function
+2. True
+3. False
+4. 1000000
+5. 2
+
+1. Standard function
+2. Generator
+3. Either a generator or standard function is fine
+4. Generator
+5. Standard function
+6. Standard function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

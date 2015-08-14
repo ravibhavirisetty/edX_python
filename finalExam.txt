@@ -1,0 +1,182 @@
+
+PROBLEM 01:
+
+1. A Python dictionary is a mutable object.
+A. True
+
+2. The orders of growth of O(n2+1) and O(n5+1) are both polynomial.
+A. True
+
+3. In the statement L = [1,2,3], L is a class.
+A. False
+
+4. A subclass (child) inherits all the attributes of its superclass (parent), but some of these attributes can be overridden.
+A. True
+
+5. A raised exception in a Python program always leads to immediate program termination.
+A. False
+
+6. Applying bisection search as opposed to linear search usually significantly increases the speed of a program for large inputs.
+A. True
+
+7. Consider the following function... A new object of type list is created for each recursive invocation of f.
+A. True
+
+8. The complexity of binary search on a sorted list of n items is O(logn).
+A. True
+
+9. All O(1) functions take exactly the same amount of time to run.
+A. False
+
+10. Guess-and-check is one method that proves the correctness of an algorithm.
+A. False
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM 02:
+
+1. The preceding Python statements will print False because:
+A. x.sort() is not equal to sorted(y)
+
+2. Suppose you have a class called At. There exists a special method defined in the class with two underbars called __lt__ that tests whether one instance of the class, a, is less than another instance of the class, b. Which is true?
+A. a.__lt__(b) is syntactically correct
+
+3. The function 8000∗n∗log(n)+1000∗log(n)+40∗n300+2n is
+A. 
+
+4. Consider the function f below. What is its big oh complexity?
+A.
+
+5. Consider the code... Which of the following does NOT cause an exception to be thrown?
+A. None of the above
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM 03:
+
+3-1A. When we reach the marked spot in the code, and the variable iteration has value n, the smallest n+1 elements of the sorted version of lst are in L in the correct order.
+A. False
+
+3-1B. When we reach the marked spot in the code, and the variable iteration has value n, the largest n+1 elements of the sorted version of lst are in L in the correct order.
+A. True
+
+3-1C. When we reach the marked spot in the code, and the variable iteration has value n, the first n+1 elements of the original list, lst, appear in the correctly sorted places in L. The "correctly sorted places" refers to the order of the elements in the list, not the index.
+A. True
+
+3-1D. The function sorts the list lst in place without using a new list.
+A. True
+
+3-1E. The complexity of this algorithm is:
+A. 
+
+------------
+
+3-2A. When we reach the marked spot in the code, and the variable iteration has value n, the smallest n+1 elements of the sorted version of lst are in L in the correct order.
+A. True
+
+3-2B. When we reach the marked spot in the code, and the variable iteration has value n, the largest n+1 elements of the sorted version of lst are in L in the correct order.
+A. False
+
+3-2C. When we reach the marked spot in the code, and the variable iteration has value n, the first n+1 elements of the original list, lst, appear in the correctly sorted places in L. The "correctly sorted places" refers to the order of the elements in the list, not the index.
+A. False
+
+3-2D. The function sorts the list lst in place without using a new list.
+A. True
+
+3-2E. The complexity of this algorithm is:
+A.
+
+------------
+
+3-3A. When we reach the marked spot in the code, and the variable iteration has value n, the smallest n+1 elements of the sorted version of lst are in L in the correct order.
+A. False
+
+3-3B. When we reach the marked spot in the code, and the variable iteration has value n, the largest n+1 elements of the sorted version of lst are in L in the correct order.
+A. False
+
+3-3C. When we reach the marked spot in the code, and the variable iteration has value n, the first n+1 elements of the original list, lst, appear in the correctly sorted places in L. The "correctly sorted places" refers to the order of the elements in the list, not the index.
+A. True
+
+3-3D. The function sorts the list lst in place without creating a new list.
+A. False
+
+3-3E. The complexity of this algorithm is:
+A.
+
+------------
+
+3-4A. When we reach the marked spot in the code on the nth recursive call of sort4, the smallest n+1 elements of the sorted version of lst are in L in the correct order.
+A. False
+
+3-4B. When we reach the marked spot in the code on the nth recursive call of sort4, the largest n+1 elements of the sorted version of lst are in L in the correct order.
+A. False
+
+3-4C. When we reach the marked spot in the code on the nth recursive call of sort4, the first n+1 elements of the original list, lst, appear in the correctly sorted places in L. The "correctly sorted places" refers to the order of the elements in the list, not the index.
+A. False
+
+3-4D. The function sorts the list lst in place without creating a new list.
+A. False
+
+3-4E. The complexity of this algorithm is:
+A. O(n log n)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM 05:
+
+5-2. Which course has the highest grade?
+A. 6.01x
+
+5-3. The instance edX has several methods defined. The expression dir(edX) will evaluate to be all the methods defined in the class. In this case dir(edX) will evaluate to the list:
+A. False
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+PROBLEM 07:
+
+7-1. Match the pair with its definition: 'D' and 'G'
+A. first cousin
+
+7-2. Match the pair with its definition: 'B' and 'C'
+A. zeroth cousin
+
+7-3. Match the pair with its definition: 'I' and 'Q'
+A. second cousin
+
+7-4. "D" and "G"
+A. first cousing 0 removed
+
+7-5. "D" and "M"
+A. first cousin 1 removed
+
+7-6. "B" and "L"
+A. zeroth cousin 2 removed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

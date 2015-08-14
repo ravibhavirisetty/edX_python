@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fmodern\fcharset0 Courier;\f2\fmodern\fcharset0 CourierNewPSMT;
+}
+{\colortbl;\red255\green255\blue255;\red81\green81\blue81;\red46\green46\blue46;\red29\green138\blue208;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs38 \cf2 \expnd0\expndtw0\kerning0
+GETTING STARTED\
+\pard\pardeftab720
+
+\fs32 \cf3 \expnd0\expndtw0\kerning0
+This problem set has two parts. The encryption part is graded and deals with encryption, a very important concept in computer science. The recursion part is an ungraded set of problems designed to help you practice writing recursive functions. We will not provide graders for this recursion part but urge you to practice coding and testing these problems on your own machine.\
+Download and save {\field{\*\fldinst{HYPERLINK "https://courses.edx.org/asset-v1:MITx+6.00.1x_6+2T2015+type@asset+block/code_ProblemSet6.zip"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+code_ProblemSet6.zip}}. This zip archive includes the following files:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\f1 \cf3 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+ps6_encryption.py
+\f0 \expnd0\expndtw0\kerning0
+:\uc0\u8232 Skeleton code you'll fill in for the encryption part the problem set.\
+\ls1\ilvl0
+\f1 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+words.txt
+\f0 \expnd0\expndtw0\kerning0
+:\uc0\u8232 \u8232 A list of English words\
+\ls1\ilvl0
+\f1 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+ps6_pseudo.txt
+\f0 \expnd0\expndtw0\kerning0
+:\uc0\u8232 Pseudocode for Problem 2. We urge you to not look at this file until you reach Problem 2 and read the instructions contained there.\
+\ls1\ilvl0
+\f1 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+story.txt
+\f0 \expnd0\expndtw0\kerning0
+:\uc0\u8232 An encoded story\
+\ls1\ilvl0
+\f1 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+ps6_recursion.py
+\f0 \expnd0\expndtw0\kerning0
+:\uc0\u8232 Skeleton code for the practice recursion problems.\
+\pard\pardeftab720
+\cf3 \expnd0\expndtw0\kerning0
+Load 
+\f1 \expnd0\expndtw0\kerning0
+ps6_encryption.py
+\f0 \expnd0\expndtw0\kerning0
+ into a Python environment without making any modifications to it, in order to ensure that everything is set up correctly. The code that we have given you loads a list of words from a file. If everything is okay, after a small delay, you should see the following printed out:\
+\pard\pardeftab720
+
+\f1 \cf3 \expnd0\expndtw0\kerning0
+Loading word list from file...\
+55909 words loaded. \
+\pard\pardeftab720
+
+\f0 \cf3 \expnd0\expndtw0\kerning0
+The line 
+\f2 \expnd0\expndtw0\kerning0
+assert applyShift(s, bestShift) == 'Hello, world!'
+\f0 \expnd0\expndtw0\kerning0
+ will also print out an assertion error, and that is ok, because you haven't implemented the functions yet. If you see an 
+\f1 \expnd0\expndtw0\kerning0
+IOError
+\f0 \expnd0\expndtw0\kerning0
+ instead (e.g., 
+\f1 \expnd0\expndtw0\kerning0
+No such file or directory
+\f0 \expnd0\expndtw0\kerning0
+), you should change the value of the 
+\f1 \expnd0\expndtw0\kerning0
+WORDLIST_FILENAME
+\f0 \expnd0\expndtw0\kerning0
+ constant (defined near the top of the file) to the complete pathname for the file 
+\f1 \expnd0\expndtw0\kerning0
+words.txt
+\f0 \expnd0\expndtw0\kerning0
+ (this will vary based on where you saved the file).\
+The file 
+\f1 \expnd0\expndtw0\kerning0
+ps6_encryption.py
+\f0 \expnd0\expndtw0\kerning0
+ has a few functions already implemented that you can use while writing up your solution. You can ignore the code between the following comments, though you should read and understand everything else:\
+\pard\pardeftab720
+
+\f1 \cf3 \expnd0\expndtw0\kerning0
+# -----------------------------------\
+# Helper code\
+# (you don't need to understand this helper code)\
+. . .\
+# (end of helper code)\
+# -----------------------------------  }
